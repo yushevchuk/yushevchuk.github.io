@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <title>My Event</title>
+</head>
+<body>
+    <div class="container">
+    <!-- HEADER -->
+        <header class="header">
+            <div class="header_container">
+                <div class="header_top cf">
+                    <div class="left_side">
+                        <div class="logo">
+                            <a href="#">Browse Events</a>
+                        </div>
+                    </div>
+                    <div class="right_side">
+                        <nav class="header_navigation">
+                            <ul class="top_nav">
+                                <li><a id="singup" href="#">Sing up</a></li>
+                                <li><a id="login"href="#">Log in</a></li>
+                                <li class="hover_help">
+                                    <a class="btn_help" href="#">Help
+                                        <div class="img_arrow"></div>
+                                    </a>
+                                    <ul class="submenu">
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">API</a></li>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Jobs</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="header_bottom">
+                    <h1>Free place for your event</h1>
+                    <button id="btn_create_event">create event</button>
+                </div>
+            </div>
+        </header>
+    <!-- /HEADER -->
+    <!-- MAIN SECTION -->
+        <article class="main_section">
+            <div class="main_section_container">
+        <!-- SEARCH FORM -->
+                <form class="search_form">
+                    <input type="search" name="search" placeholder="Search for events or categories"><!--
+                    --><select>
+                        <option value="rivne">Rivne, Ukraine</option>
+                        <option value="kiev">Kiev, Ukraine</option>
+                        <option value="lviv">Lviv, Ukraine</option>
+                    </select><!--
+                    --><input type="date" name="date"><!--
+                    --><input type="submit" value="search">
+                </form>
+        <!-- /SEARCH FORM -->
+        <!-- EVENT ITEMS -->
+                <section class="events_section">
+                    <div class="event_item1">
+                        <div class="image">
+                            <a href="event.html"><img src="images/imgEventItem1.png"></a>
+                        </div>
+                        <div class="information">
+                            <p class="date">22 жовтня 2016, 10:00.<p>
+                            <p class="info">У Рівному відбудеться театральний фестиваль<p>
+                        </div>
+                        <div class="events_lable">
+                            <div class="share_icon">
+                                <a href=""><img src="images/iconShare.png"></a>
+                            </div>
+                            <div class="bookmark_icon">
+                                <a href=""><img src="images/iconBookmark.png"></a>
+                            </div>
+                        </div>
+                   </div>
+                    <div class="event_item2">
+                        <div class="image">
+                            <img src="images/imgEventItem2.png">
+                        </div>
+                        <div class="information">
+                            <p class="date">22 грудня 2016, 18:00.<p>
+                            <p class="info">Міжнародний театральний фестиваль "ЛіхтArt"<p>
+                        </div>
+                        <div class="events_lable">
+                            <div class="share_icon">
+                                <a href=""><img src="images/iconShare.png"></a>
+                            </div>
+                            <div class="bookmark_icon">
+                                <a href=""><img src="images/iconBookmark.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="event_item3">
+                        <div class="image">
+                            <img src="images/imgEventItem3.png">
+                        </div>
+                        <div class="information">
+                            <p class="date">17 грудня 2016, 19:00.<p>
+                            <p class="info">У Рівному проведуть Винний бал: селебреті зберуться заради благодійності.<p>
+                        </div>
+                        <div class="events_lable">
+                            <div class="share_icon">
+                                <a href=""><img src="images/iconShare.png"></a>
+                            </div>
+                            <div class="bookmark_icon">
+                                <a href=""><img src="images/iconBookmark.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="event_item4">
+                        <div class="image">
+                            <img src="images/imgEventItem4.png">
+                        </div>
+                        <div class="information">
+                            <p class="date">15 жовтня 2016, 12:00.<p>
+                            <p class="info">У Рівному відбудеться перший фестиваль міської культури та урбаністикиі.<p>
+                        </div>
+                        <div class="events_lable">
+                            <div class="share_icon">
+                                <a href=""><img src="images/iconShare.png"></a>
+                            </div>
+                            <div class="bookmark_icon">
+                                <a href=""><img src="images/iconBookmark.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="event_item5">
+                        <div class="image">
+                            <img src="images/imgEventItem2.png">
+                        </div>
+                        <div class="information">
+                            <p class="date">22 жовтня 2016, 10:00.<p>
+                            <p class="info">Свято гарбуза у Рівненському зоопарку.<p>
+                        </div>
+                        <div class="events_lable">
+                            <div class="share_icon">
+                                <a href=""><img src="images/iconShare.png"></a>
+                            </div>
+                            <div class="bookmark_icon">
+                                <a href=""><img src="images/iconBookmark.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="event_item6">
+                        <div class="image">
+                            <img src="images/imgEventItem3.png">
+                        </div>
+                        <div class="information">
+                            <p class="date">22 жовтня 2016, 10:00.<p>
+                            <p class="info">У Рівному проведуть Винний бал: селебреті зберуться заради благодійності<p>
+                        </div>
+                        <div class="events_lable">
+                            <div class="share_icon">
+                                <a href=""><img src="images/iconShare.png"></a>
+                            </div>
+                            <div class="bookmark_icon">
+                                <a href=""><img src="images/iconBookmark.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </article>
+    <!-- /EVENT ITEMS -->
+    <!-- /MAIN SECTION -->
+    <!-- FOOTER -->
+        <footer class="footer">
+            <div class="footer_container">
+                <div class="footer_top cf">
+                    <div class="left_side">
+                        <div class="link_create_event">
+                            <a href="">Create Event Now</a>
+                        </div>
+                    </div>
+                    <div class="right_side cf">
+                         <div class="link_login">
+                            <a href>Log in</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_bottom">
+                <!-- NAVIGATION -->
+                    <nav class="navigation">
+                        <a href="#">Help</a>
+                        <a href="#">About Us</a>
+                        <a href="#">API</a>
+                        <a href="#">Jobs</a>
+                        <a href="#">Blog</a>
+                    </nav>
+                <!-- /NAVIGATION -->
+                      <div class="privacy_terms">
+                            <p> &#169; 2016 My Event</p>
+                      </div>
+                </div>
+            </div>
+        </footer>
+    <!-- /FOOTER -->
+    <!-- MODALS -->
+    <!-- event modal -->
+        <div id="myModal" class="modal_event">
+      <!-- Modal content -->
+        <div class="modal_content">
+            <span class="close">×</span>
+                <div class="modal_header">
+                    <h2>Create Event</h2>
+                </div>
+                <div class="modal_body">
+                    <form method="post">
+                        <label>Event Status</label>
+                        <div class="status_event_box">
+                            <span>Free</span>
+                            <input type="radio" name="statusevent" value="free">
+                            <span>Paid<span/>
+                            <input type="radio" name="statusevent" value="paid">
+                        </div>
+                        <label>Event Name</label>
+                        <input type="text" name="eventname">
+                        <label>Date&Time</label>
+                        <input type="date" name="date">
+                        <input type="time" name="time">
+                        <label>Description</label>
+                        <textarea></textarea>
+                        <label>Add photo</label>
+                        <input type="file" name="addphoto">
+                        <div class="btn_create_box">
+                            <input type="submit" value="Create">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    <!-- /event modal -->
+    <!-- login modal -->
+        <div class="modal_login">
+      <!-- Modal content -->
+            <div class="modal_content">
+                <span class="close">×</span>
+                <div class="modal_header">
+                    <h2>Login Your Account</h2>
+                </div>
+                <div class="modal_body">
+                    <form method="post">
+                        <label>User Name</label>
+                        <input type="text" name="username">
+                        <label>Password</label>
+                        <input type="password" name="password">
+                        <div class="btn_login_box">
+                            <input type="submit" value="Login">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    <!-- /modal login -->
+    <!-- modal signup -->
+        <div class="modal_signup">
+      <!-- Modal content -->
+            <div class="modal_content">
+                <span class="close">×</span>
+                <div class="modal_header">
+                    <h2>Sign Up</h2>
+                </div>
+                <div class="modal_body">
+                    <form method="post">
+                        <label>User Name</label>
+                        <input type="text" name="username">
+                        <label>Email</label>
+                        <input type="email" name="email">
+                        <label>Password</label>
+                        <input type="password" name="password">
+                        <label>Conform password</label>
+                        <input type="password" name="conformpassword">
+                        <div class="btn_signup_box">
+                            <input type="submit" value="Sign up">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    <!-- /modal signup -->
+    <!-- /MODALS -->
+    </div>
+    <script src="js/js.js"></script>
+</body>
+</html>
