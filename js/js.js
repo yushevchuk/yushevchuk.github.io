@@ -3,14 +3,14 @@ $(document).ready(function() {
     $(this).toggleClass("collapse").next("ul").slideToggle();
   });
 
-  $("#btn_create_event").click(function() {
+  $(".event_modal").click(function() {
     $(".modal_event").fadeIn(200);
   });
   $(".modal_event").find(".close").click(function() {
     $(".modal_event").fadeOut(200);
   });
 
-  $("#login").click(function() {
+  $(".login_modal").click(function() {
     $(".modal_login").fadeIn(200);
   });
 
