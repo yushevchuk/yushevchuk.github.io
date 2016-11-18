@@ -222,13 +222,14 @@ a:hover {
 .event_item5,
 .event_item6 {
     width: 293px;
-    height: 290px;
+    height: 296px;
     border: 1px solid #ccc;
     background: #fff;
 }
 
 .events_section .information {
-    height: 85px;
+    height: 90px;
+    overflow: hidden;
 }
 
 .events_section .information .date {
